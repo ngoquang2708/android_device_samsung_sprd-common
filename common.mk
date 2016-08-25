@@ -16,8 +16,6 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-LOCAL_PATH := device/samsung/sprd-common
-
 # Audio
 PRODUCT_PACKAGES += \
 	audio.a2dp.default \
