@@ -68,6 +68,10 @@ PRODUCT_COPY_FILES += \
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
+	f2fstat \
+	fibmap.f2fs \
+	fsck.f2fs \
+	mkfs.f2fs \
 	setup_fs \
 
 # Misc packages
