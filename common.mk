@@ -27,7 +27,6 @@ PRODUCT_PACKAGES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-	libnetcmdiface \
 	dhcpcd.conf \
 	wpa_supplicant \
 	hostapd
