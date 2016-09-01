@@ -1,3 +1,5 @@
+#
+# Copyright (C) 2016 The Android Open Source Project
 # Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,6 +13,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
 #
 # This file sets variables that control the way modules are built
@@ -19,6 +22,9 @@
 # included in a build is to use PRODUCT_PACKAGES in a product
 # definition file).
 #
+
+# SPRD hardware
+BOARD_USES_SPRD_HARDWARE := true
 
 # Graphics
 USE_OPENGL_RENDERER := true
