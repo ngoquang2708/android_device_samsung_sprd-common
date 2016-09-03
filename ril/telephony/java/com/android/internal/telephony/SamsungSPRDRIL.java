@@ -129,7 +129,7 @@ public class SamsungSPRDRIL extends RIL implements CommandsInterface {
     }
 
     @Override
-    protected void processUnsolicited(Parcel p) {
+    protected void processUnsolicited(Parcel p, int type) {
         int originalDataPosition = p.dataPosition();
         int response = p.readInt();
         Object ret;
@@ -146,7 +146,7 @@ public class SamsungSPRDRIL extends RIL implements CommandsInterface {
                 break;
             default:
                 p.setDataPosition(originalDataPosition);
-                super.processUnsolicited(p);
+                super.processUnsolicited(p, type);
                 return;
             }
         } catch (Throwable tr) {
