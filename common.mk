@@ -26,6 +26,7 @@ PRODUCT_PACKAGES += \
 # WiFi
 PRODUCT_PACKAGES += \
 	wpa_supplicant \
+	wpa_supplicant.conf \
 	hostapd
 
 # Device props
