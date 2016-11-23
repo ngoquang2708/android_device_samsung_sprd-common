@@ -43,11 +43,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	persist.sys.usb.config=mtp
 
-# Charger
-PRODUCT_PACKAGES += \
-	charger \
-	charger_res_images
-
 # Permissions
 PERMISSION_XML_FILES := \
 	frameworks/native/data/etc/handheld_core_hardware.xml \
